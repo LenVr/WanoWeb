@@ -1,0 +1,93 @@
+body {
+    background-color: #0F0F0F;
+}
+
+.WanoNameContainer {
+    padding: 10%;
+    /* background-image: url("../assets/WanoFaceImg.jpg") */
+    background: linear-gradient(20deg, #232D3F, #005B41, #008170);
+}
+
+.WanoNameContainer h1 {
+    color: white;
+}
+
+#imgWano {
+    display: flex;
+    justify-content: center;
+}
+
+#imgWano img {
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#WanoInfoPicContainer {
+    background-color: #232D3F;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#infoWano {
+    color: white;
+}
+
+#infoWano h2 {
+    padding-top: 10%;
+}
+
+#infoWano p {
+    font-size: 20px;
+}
+
+.discordjs img {
+    width: 80%;
+    height: 100%;
+}
+
+/* Invite me button */
+
+#InvtContainer {
+    background: linear-gradient(#232D3F, #0F0F0F);
+    display: grid;
+    justify-content: center;
+    bottom: 0;
+    padding-bottom: 20%;
+}
+
+
+#inviteBttn {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    padding: 20px;
+    background: linear-gradient(to right, transparent 50%, #2ee4cc4d 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+
+#inviteBttn:hover {
+    background-position: right;
+    color: white;
+}
+
+/* Invite me button */
+
+/* Language button */
+
+.lgButton {
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    margin: 20px;
+}
+
+
+
+/* Language button */
+
+/* Bttondown */
